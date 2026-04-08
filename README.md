@@ -1,1 +1,4 @@
 # A-Josiah-web-project
+
+Project 2-HTML Foundation Page
+My webpages theme is what my major is and why I chose that major. What I learned well creating this webpage, is that without CSS and Java Script it is kind of limiting what you can do. I also learned that small, tiny mistakes can mess up your whole code, as most the errors I encountered were caused by that. I also learned that without using CSS, it is impossible not to have any errors in your code, as it is all marked as "Obsolete". The majority of challenges I faced were typos, for the most part HTML is pretty easy, allthough I defenitly did have to go back into my notes and relearn some of the things taught previously. 
