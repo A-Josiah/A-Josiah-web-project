@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Lord of the Rings Project</title>
+   <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+   <nav>
+      <a href="../index.html">Home</a>
+      
+   </nav>
+
+   <header>
+      <h1>The World of Lord of the Rings</h1>
+      <p>
+         The Lord of the Rings is one of the most popular fantasy stories because of its worldbuilding,
+         characters, and themes of courage, friendship, and sacrifice.
+      </p>
+   </header>
+
+   <main class="container">
+      <section class="card">
+         <h2>Why Lord of the Rings Is Interesting</h2>
+         <p>
+            One reason Lord of the Rings stands out is because Middle-earth feels like a real place.
+            The story includes different kingdoms, languages, cultures, and histories that make the
+            world feel detailed and believable.
+         </p>
+
+         <h3>Main Themes</h3>
+         <ul>
+            <li>Good versus evil</li>
+            <li>Friendship and loyalty</li>
+            <li>Courage in difficult situations</li>
+            <li>The danger of power and temptation</li>
+         </ul>
+      </section>
+
+      <section class="card">
+         <h2>Favorite Characters</h2>
+         <p>
+            The story has many memorable characters, including Frodo, Sam, Aragorn, Gandalf, and Legolas.
+            Each character plays an important role in the journey to destroy the One Ring.
+         </p>
+
+         <img src="../images/lotr.jpg" alt="A ring with a forign language engraved in it">
+         <p>
+            Image source:
+            <a href="https://pixabay.com/photos/ring-lord-of-the-rings-hobbit-4612457/" target="_blank">Original image source</a>
+         </p>
+      </section>
+
+      <section class="card">
+         <h2>Find Your Fellowship Message</h2>
+         <p>Enter your name and choose a Middle-earth role to receive a custom message.</p>
+
+         <form id="lotrForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="role">Choose a role:</label>
+            <select id="role" name="role">
+               <option value="Hobbit">Hobbit</option>
+               <option value="Ranger">Ranger</option>
+               <option value="Wizard">Wizard</option>
+               <option value="Elf">Elf</option>
+               <option value="Dwarf">Dwarf</option>
+            </select>
+
+            <button type="submit">Create Message</button>
+         </form>
+
+         <div id="messageBox"></div>
+      </section>
+   </main>
+
+   <script src="../js/script.js"></script>
+</body>
+</html>
